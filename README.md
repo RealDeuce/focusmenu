@@ -13,6 +13,7 @@ comms/hidapi
 Also, the 3dxdisp library is required.
 My FreeBSD port is [here](https://github.com/RealDeuce/3dxdisp/tree/FreeBSD-hidapi).
 The FreeBSD-hidapi branch is recommended since it will need less updating if upstream changes.
+This must be located at ../3dxdisp and have the library compiled.
 
 # Build instructions
 `make`

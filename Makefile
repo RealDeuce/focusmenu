@@ -21,7 +21,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 
-CFLAGS += -O0 -g `pkg-config --cflags x11 xmu hidapi` -I../3dxdisp/src
+CFLAGS += `pkg-config --cflags x11 xmu hidapi` -I../3dxdisp/src
 LDFLAGS += `pkg-config --libs x11 xmu hidapi` -L../3dxdisp -l3dxdisp
 
 focusmenu: focusmenu.c
