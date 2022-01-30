@@ -2,7 +2,7 @@ Simple program to update a 3DConnexion SpacePilot SP1 USB Display
 
 This uses a text file in a simple format to update the display based on the title of the X window which has input focus.
 
-It currently has only been built/tested on FreeBSD.
+It currently has only been built/tested on FreeBSD, and is a pile of hacks.
 
 # Dependencies
 The following ports are required:\
